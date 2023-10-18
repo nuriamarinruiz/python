@@ -1,0 +1,10 @@
+# Ejercicio 2:
+# Calcular el área de un triángulo pidiendo los valores por consola, validar que sólo se meten números positivos, en el caso contrario se muestra por consola el error. ( base por altura entre 2)
+
+case = float(input("Escribe la base:"))
+altura = float(input("Escribe la altura:"))
+
+if base < 0 or altura < 0 :
+    print("no puedes poner un numero negativo")
+else:
+     print("Este es el area del triangulo en cm :", ((base*altura)/2))
