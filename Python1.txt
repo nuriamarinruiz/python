@@ -1,0 +1,7 @@
+
+# Ejercicio 1:
+#Pedir por consola el nombre y la edad de una persona para que luego devuelva cuantos días ha vivido.
+
+nombre = str(input("Hola, escribe tu nombre:"))
+edad = int(input("Escribe tu edad:"))
+print("Estos son los dias que has vivido", edad*365)
